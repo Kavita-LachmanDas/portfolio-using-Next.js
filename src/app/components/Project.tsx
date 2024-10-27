@@ -1,17 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import charity from '../public/charity.png'
-import giff from '../public/giff.gif'
-import toss from '../public/toss.png'
-import calculator from '../public/calculator.jpg'
-import quiz from '../public/quiz.png'
-import atm from '../public/atm.jpg'
-import currency from '../public/Currency.webp'
-import landing from '../public/landing.jpg'
-import shoe from '../public/shoe.gif'
-import gall from '../public/gall.jpg'
-import com from '../public/com.jpg'
+
+
+
 export default function Project() {
   return (
     <div>
@@ -33,7 +25,7 @@ export default function Project() {
           <Image
             alt="team"
             className="flex-shrink-0 rounded-lg  h-56 object-cover object-center mb-4 w-[62vw]"
-            src={calculator} width={300} height={300}
+            src={"/calculator.jpg"} width={300} height={300}
           />
           <div className="w-full">
             <h2 className="title-font font-medium text-lg text-gray-100">
@@ -92,7 +84,7 @@ export default function Project() {
           <Image
             alt="team"
             className="flex-shrink-0 rounded-lg  h-56 object-cover object-center mb-4 w-[62vw]"
-            src={quiz} width={300} height={300}
+            src={"/quiz.png"} width={300} height={300}
           />
           <div className="w-full">
             <h2 className="title-font font-medium text-lg text-gray-100">
@@ -151,7 +143,7 @@ export default function Project() {
           <Image
             alt="team"
             className="flex-shrink-0 rounded-lg  h-56 object-cover object-center mb-4 w-[62vw]"
-            src={atm} width={300} height={300}
+            src={"/atm.jpg"} width={300} height={300}
           />
           <div className="w-full">
             <h2 className="title-font font-medium text-lg text-gray-100">
@@ -209,7 +201,7 @@ export default function Project() {
           <Image
             alt="team"
             className="flex-shrink-0 rounded-lg  h-56 object-cover object-center mb-4 w-[62vw]"
-            src={currency}
+            src={"/currency.webp"}
             width={300} height={300}
           />
           <div className="w-full">
@@ -270,7 +262,7 @@ export default function Project() {
         <Link href="https://kavita-lachmandas.github.io/charity-website/" target='blank'> <Image
             alt="team"
             className="flex-shrink-0 rounded-lg  h-56 object-cover object-center mb-4 w-[62vw]"
-            src={charity} width={300} height={300}
+            src={"/charity.png"} width={300} height={300}
           /></Link>
           <div className="w-full">
             <h2 className="title-font font-medium text-lg text-gray-100">
@@ -329,7 +321,7 @@ export default function Project() {
          <Link href="https://kavita-lachmandas.github.io/weather-check/" target='blank'> <Image
             alt="team"
             className="flex-shrink-0 rounded-lg  h-56 object-cover object-center mb-4 w-[62vw]"
-            src={giff} width={300} height={300}
+            src={"/giff.gif"} width={300} height={300}
           /> </Link>
           <div className="w-full">
             <h2 className="title-font font-medium text-lg text-gray-100">
@@ -385,10 +377,10 @@ export default function Project() {
          {/* /////////////////////card 7  */}
       <div className="p-4 lg:w-1/4 md:w-1/2">
         <div className="bx h-full flex flex-col items-center text-center">
-         <Link href={"https://kavita-lachmandas.github.io/toss-gamee/"} target='blank'><Image
+         <Link href="https://kavita-lachmandas.github.io/toss-gamee/"><Image
             alt="team"
             className="flex-shrink-0 rounded-lg  h-56 object-cover object-center mb-4 w-[62vw]"
-            src={toss} width={300} height={300}
+            src={"/toss.png"} width={300} height={300}
           /></Link>
           <div className="w-full">
             <h2 className="title-font font-medium text-lg text-gray-100">
@@ -507,7 +499,7 @@ export default function Project() {
         <Link href="https://kavita-lachmandas.github.io/slider_assignment/" target='blank'>  <Image
             alt="team"
             className="flex-shrink-0 rounded-lg  h-56 object-cover object-center mb-4 w-[62vw]"
-            src= {landing} width={300} height={300}
+            src= {"/landing.jpg"} width={300} height={300}
           /></Link>
           <div className="w-full">
             <h2 className="title-font font-medium text-lg text-gray-100">
@@ -568,7 +560,7 @@ export default function Project() {
         <Link href="https://kavita-lachmandas.github.io/landing-page/" target='blank'>    <Image
             alt="team"
             className="flex-shrink-0 rounded-lg  h-56 object-cover object-center mb-4 w-[62vw]"
-            src={shoe} width={300} height={300}
+            src={"/shoe.gif"} width={300} height={300}
           /> </Link>
           <div className="w-full">
           <Link href="https://kavita-lachmandas.github.io/landing-page/" target='blank'>  <h2 className="title-font font-medium text-lg text-gray-100">
@@ -628,7 +620,7 @@ export default function Project() {
         <Link href="https://kavita-lachmandas.github.io/gallery-project/click.html" target='blank'>    <Image
             alt="team"
             className="flex-shrink-0 rounded-lg  h-56 object-cover object-center mb-4 w-[62vw]"
-            src={gall} width={300} height={300}
+            src={"/gall.jpg"} width={300} height={300}
           /></Link>
    <div className="w-full">
    <Link href="https://kavita-lachmandas.github.io/gallery-project/click.html"><h2 className="title-font font-medium text-lg text-gray-100">
@@ -687,7 +679,7 @@ export default function Project() {
         <Link href="https://kavita-lachmandas.github.io/classWork/" target='blank'>  <Image
             alt="team"
             className="flex-shrink-0 rounded-lg  h-56 object-cover object-center mb-4 w-[62vw]"
-            src={com} width={300} height={300}
+            src={"/com.jpg"} width={300} height={300}
           /></Link>
           <div className="w-full">
           <Link href="https://kavita-lachmandas.github.io/classWork/">  <h2 className="title-font font-medium text-lg text-gray-100">

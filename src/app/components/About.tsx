@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import about from '../public/about.webp'
+// import about from '../public/about.webp'
 import Link from 'next/link'
 
 export default function About() {
@@ -8,7 +8,7 @@ export default function About() {
     <div>
         <section className="sec text-gray-600 body-font bg-black">
   <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-    <Image className="rounded-[50%] lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center" alt="hero" src={about} width={300} height={300}/>
+    <Image className="rounded-[50%] lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center" alt="hero" src="/about.webp" width={300} height={300}/>
     <div className="text-center lg:w-2/3 w-full">
       <h1 className="fontt title-font sm:text-4xl text-3xl mb-4 font-medium text-white">About Me</h1>
       <p className="mb-8 leading-relaxed text-white">

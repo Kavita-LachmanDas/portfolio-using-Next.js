@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import React, { useEffect } from 'react'
 
-import capture from "../public/capture.png"
+
 import Typed from 'typed.js';
 import { BsFacebook, BsFillStarFill, BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs';
 import Link from 'next/link';
@@ -40,7 +40,7 @@ export default function Hero() {
                  </p>
          
         <button type="button" className='buttonn flex gap-4 m-6'>
-      <Link href="https://www.linkedin.com/in/kavita-luhana-0a31842ab/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BuLVFCDkHQmC7tYdu1o8bwg%3D%3D"><BsLinkedin/></Link>
+      <Link href="https://www.linkedin.com/in/kavita-luhana-0a31842ab/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BqDGqoSUgTBCSHMvrMgagTw%3D%3D"><BsLinkedin/></Link>
       <Link href="https://github.com/Kavita-LachmanDas">  <BsGithub/></Link>
       <Link href="/"> <BsTwitter/></Link>
       <Link href="/"> <BsFacebook/></Link>
@@ -50,7 +50,7 @@ export default function Hero() {
  <Link href="https://drive.google.com/file/d/1j-iaIbyVHGhTCv8LVDFkk47CM75VBvmM/view?usp=sharing"> <button className='bu text-center text-blue-800 border-2 outline-blue-600 bg-slate-500 font-serif p-3 w-[200px] rounded-3xl text-xl m-4'>Hire Me</button></Link>  
                 </div>
                 <div className="image my-[100px]">
-<Image alt='hero' src={capture} width={500} height={500}/>
+<Image alt='hero' src="/capture.png" width={500} height={500}/>
                 </div>
             </div>
         </div>
