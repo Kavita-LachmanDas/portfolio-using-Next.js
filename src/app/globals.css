@@ -2,26 +2,226 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+  .nav-link {
+    position: relative;
+  }
+
+  .nav-link::before {
+    transition: 300ms;
+    height: 5px;
+    content: "";
+    position: absolute;
+    background-color: bisque;
+  }
+
+  .nav-link-ltr::before {
+    width: 0%;
+    bottom: 0px;
+   
+  }
+
+  .nav-link-ltr:hover::before {
+    width: 100%;
+  }
+ 
+.hello{
+    font-size: 50px;
+    /* color: rgb(36, 9, 9); */
+    color: brown;
+    text-shadow: 0 0 10px rgb(112, 74, 24);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+span{
+    color: yellow;
+    position: relative;
+    top: 0;
+    animation: colorful 6s infinite;
+}
+@keyframes colorful {
+100% {
+filter: hue-rotate(360deg);
+}
+}
+.bu{
+  box-shadow: 10 12 10px gray;
+}
+.bu:hover{
+  border-radius: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+
+/* Responsive adjustments */
+@media (max-width: 768px) { /* For tablets and smaller devices */
+  .main {
+      flex-direction: column; /* Stack elements vertically */
+      height: auto; /* Allow height to adjust based on content */
+      padding: 20px; /* Add some padding */
+  }
+
+  .text {
+      width: 100%; /* Take full width */
+      padding: 6px; /* Adjust padding */
+      text-align: center; /* Center text */
+  }
+
+  .text h1 {
+      font-size: 2.5rem; /* Adjust heading size */
+  }
+
+  .text p.hello {
+      font-size: 3rem; /* Adjust dynamic text size */
+  }
+
+  .text p {
+      font-size: 0.875rem; /* Adjust paragraph text size */
+  }
+
+  .buttonn {
+      justify-content: center; /* Center button icons */
+  }
+
+  .bu {
+      width: 100%; /* Full width for button */
+      margin: 10px 0; /* Vertical margin */
+  }
+
+  .image {
+      margin-top: 20px; /* Add spacing above the image */
+      width: 100%; /* Full width for image */
+      text-align: center; /* Center image */
+  }
+
+  .image img {
+      width: 100%; /* Make image responsive */
+      height: auto; /* Maintain aspect ratio */
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
+@media (max-width: 480px) { /* For mobile devices */
+  .text h1 {
+      font-size: 2rem; /* Further adjust heading size */
+  }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .text p.hello {
+      font-size: 2.5rem; /* Further adjust dynamic text size */
+  }
+
+  .text p {
+      font-size: 0.75rem; /* Further adjust paragraph text size */
   }
 }
+
+.fontt{
+  text-shadow: 2px 3px 20px gray;
+ 
+}
+
+@media (max-width: 768px){
+  .sec{
+    position: relative;
+    top: 280px;
+  }
+}
+@media (max-width: 480px){
+  .sec{
+    position: relative;
+    top: 180px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////////////////////////////////// */
+@media (max-width : 768px)and (min-width : 670px) {
+  
+  .bx{
+    align-items: center;
+  
+   margin-left: 80px;
+    justify-content: center;
+  }
+}
+
+@media (max-width : 670px)and (min-width : 570px) {
+  
+  .bx{
+    align-items: center;
+  
+   margin-left: 90px;
+    justify-content: center;
+  }
+}
+
+@media (max-width : 570px) and (min-width : 460px){
+  .bx{
+  align-items: center;
+   margin-left: 90px;
+    justify-content: center; 
+  } 
+} 
+
+ @media (max-width : 462px) and (min-width : 360px){
+  .bx{
+    align-items: center;
+    justify-content: center;
+   margin-left: 60px;
+  }
+}
+
