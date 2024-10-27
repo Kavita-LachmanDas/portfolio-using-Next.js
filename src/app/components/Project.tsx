@@ -201,7 +201,7 @@ export default function Project() {
           <Image
             alt="team"
             className="flex-shrink-0 rounded-lg  h-56 object-cover object-center mb-4 w-[62vw]"
-            src={"/currency.webp"}
+            src={"/Currency.webp"}
             width={300} height={300}
           />
           <div className="w-full">
@@ -262,7 +262,7 @@ export default function Project() {
         <Link href="https://kavita-lachmandas.github.io/charity-website/" target='blank'> <Image
             alt="team"
             className="flex-shrink-0 rounded-lg  h-56 object-cover object-center mb-4 w-[62vw]"
-            src={"/charity.png"} width={300} height={300}
+            src="/charity.PNG" width={300} height={300}
           /></Link>
           <div className="w-full">
             <h2 className="title-font font-medium text-lg text-gray-100">

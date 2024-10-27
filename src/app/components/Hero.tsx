@@ -50,7 +50,7 @@ export default function Hero() {
  <Link href="https://drive.google.com/file/d/1j-iaIbyVHGhTCv8LVDFkk47CM75VBvmM/view?usp=sharing"> <button className='bu text-center text-blue-800 border-2 outline-blue-600 bg-slate-500 font-serif p-3 w-[200px] rounded-3xl text-xl m-4'>Hire Me</button></Link>  
                 </div>
                 <div className="image my-[100px]">
-<Image alt='hero' src="/capture.png" width={500} height={500}/>
+<Image alt='hero' src="/capture.PNG" width={500} height={500}/>
                 </div>
             </div>
         </div>
