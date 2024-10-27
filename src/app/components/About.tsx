@@ -15,7 +15,7 @@ export default function About() {
      
 Hello! I&apos;m Kavita LachmanDas, <br /> a passionate frontend web developer with a keen eye for design and detail. My journey in web development began with a fascination for creating interactive user experiences. With expertise in HTML, CSS, and JavaScript, I enjoy transforming ideas into beautifully functional websites. I thrive on learning new technologies and keeping up with industry trends, especially frameworks like Next.js and Tailwind CSS.
 
-In my projects, I focus on responsive design and seamless user interactions to ensure an engaging experience across devices. I believe that clean code and strong user experience are the foundations of any successful application. When I'm not coding, you can find me exploring the latest design trends or experimenting with new programming languages. I’m excited to connect with like-minded professionals and collaborate on innovative projects. Let’s create something amazing together!
+In my projects, I focus on responsive design and seamless user interactions to ensure an engaging experience across devices. I believe that clean code and strong user experience are the foundations of any successful application. When I'm not coding, you can find me exploring the latest design trends or experimenting with new programming languages. I&apos;m excited to connect with like-minded professionals and collaborate on innovative projects. Let&apos;s create something amazing together!
 
 </p>
       <div className="flex justify-center">

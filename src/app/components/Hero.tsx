@@ -4,7 +4,7 @@ import React, { useEffect } from 'react'
 
 
 import Typed from 'typed.js';
-import { BsFacebook, BsFillStarFill, BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs';
+import { BsFacebook, BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs';
 import Link from 'next/link';
 export default function Hero() {
     
