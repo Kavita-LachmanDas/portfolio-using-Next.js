@@ -7,7 +7,7 @@ export default function Header() {
       <header className="text-white body-font bg-black">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-            <span className="ml-3 text-xl text-white font-serif">Kavita</span>
+            <span className="ml-3 text-2xl text-white font-serif">Kavita</span>
           </a>
           <nav className="md:ml-auto flex flex-wrap items-center  justify-center text-xl">
             <Link href="/" className="mr-5 hover:text-white nav-link nav-link-ltr ">Home</Link>

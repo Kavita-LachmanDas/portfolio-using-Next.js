@@ -435,15 +435,15 @@ export default function Project() {
       {/* /////// */}    {/* /////////////////////card 8  */}
       <div className="p-4 lg:w-1/4 md:w-1/2">
         <div className="bx h-full flex flex-col items-center text-center">
-    <Link href="" > <Image
+    <Link href="https://cerum-website.vercel.app/" > <Image
             alt="team"
             className="flex-shrink-0 rounded-lg  h-56 object-cover object-center mb-4 w-[62vw]"
-            src=""
+            src="/back.webp"
             width={300} height={300}
           /></Link> 
           <div className="w-full">
             <h2 className="title-font font-medium text-lg text-gray-100">
-              E-commerce Website
+              Cerum Website 
             </h2>
             <h3 className="text-gray-300 mb-3">Using Next.Js</h3>
             
