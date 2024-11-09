@@ -41,7 +41,7 @@
 'use client'
 import Link from 'next/link';
 import React, { useState } from 'react';
-import { BsArrow90DegLeft, BsArrow90DegRight } from 'react-icons/bs';
+
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
