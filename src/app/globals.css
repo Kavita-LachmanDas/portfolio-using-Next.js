@@ -225,3 +225,25 @@ filter: hue-rotate(360deg);
   }
 }
 
+
+.kavi{
+  filter: drop-shadow(4px 4px 30px gray);
+  transition: all 2s ease-in-out;
+}
+.kavi:hover{
+  filter: drop-shadow(4px 4px 30px red);
+  transform: rotate(20deg);
+/* transform: scale(1.5); */
+}
+.abc{
+  filter: drop-shadow(4px 4px 30px gray);
+  transition: all 2s ease-in-out;
+}
+.abc:hover{
+  filter: drop-shadow(4px 4px 30px rgb(105, 10, 29));
+  transform: rotate(380deg);
+/* transform: scale(1.5); */
+filter: brightness(.5);
+
+}
+

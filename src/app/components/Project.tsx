@@ -140,7 +140,7 @@ export default function Project() {
     {/* /////////////////////card 3  */}
       <div className="p-4 lg:w-1/4 md:w-1/2">
         <div className="bx h-full flex flex-col items-center text-center" >
-          <Image
+          <Image 
             alt="team"
             className="flex-shrink-0 rounded-lg  h-56 object-cover object-center mb-4 w-[62vw]"
             src={"/atm.jpg"} width={300} height={300}
