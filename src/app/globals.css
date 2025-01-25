@@ -247,3 +247,13 @@ filter: brightness(.5);
 
 }
 
+@media (max-width : 370px) {
+  
+  .bx{
+    align-items: center;
+  
+   margin-left: 49px;
+    justify-content: center;
+  }
+}
+
