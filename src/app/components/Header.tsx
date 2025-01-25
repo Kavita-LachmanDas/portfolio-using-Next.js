@@ -81,7 +81,8 @@ export default function Header() {
             <Link href="/routes/contact" className="hover:text-white">Contact</Link>
 
             {/* CV Button */}
-            <Link href="https://drive.google.com/file/d/1j-iaIbyVHGhTCv8LVDFkk47CM75VBvmM/view?usp=sharing">
+            {/* <Link href="https://drive.google.com/file/d/1j-iaIbyVHGhTCv8LVDFkk47CM75VBvmM/view?usp=sharing"> */}
+            <Link href={"/cv.pdf"}>
               <button className="font-sans bg-gray-100 text-black border-0 py-1 px-3 focus:outline-none  hover:bg-gray-600 rounded">
                 My CV 
           

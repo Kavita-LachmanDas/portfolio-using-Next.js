@@ -19,7 +19,7 @@ In my projects, I focus on responsive design and seamless user interactions to e
 
 </p>
       <div className="flex justify-center">
-     <Link href="https://drive.google.com/file/d/1j-iaIbyVHGhTCv8LVDFkk47CM75VBvmM/view?usp=sharing">  <button className="inline-flex text-white bg-gray-600 border-0 py-2 px-6 focus:outline-none hover:bg-purple-400 rounded text-lg ">My Resume</button></Link>
+      <Link href={"/cv.pdf"}> <button className="inline-flex text-white bg-gray-600 border-0 py-2 px-6 focus:outline-none hover:bg-purple-400 rounded text-lg ">My Resume</button></Link>
 
       </div>
     </div>
